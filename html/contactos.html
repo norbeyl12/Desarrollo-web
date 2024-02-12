@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="icon" href="../imagenes/75826995-icono-sólido-del-libro-de-contactos-en-el-icono-de-vector-de-fondo-negro.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .contact-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contact-card h3 {
+            margin-top: 0;
+        }
+
+        .contact-card p {
+            margin: 5px 0;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Listado de Contactos</h1>
+        <p>Encuentra a tus amigos aquí</p>
+    </header>
+
+    <div class="container">
+        <div class="contact-card">
+            <h3>Contacto 1</h3>
+            <p>Nombre: Juan Pérez</p>
+            <p>Email: juan@example.com</p>
+            <p>Teléfono: 123-456-7890</p>
+        </div>
+        <div class="contact-card">
+            <h3>Contacto 2</h3>
+            <p>Nombre: María Gómez</p>
+            <p>Email: maria@example.com</p>
+            <p>Teléfono: 987-654-3210</p>
+        </div>
+        <!-- Agregar más tarjetas de contactos según sea necesario -->
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 Contactos Online. Todos los derechos reservados.</p>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Contactos</a>
+            <a href="#">Acerca de</a>
+        </nav>
+    </footer>
+</body>
+</html>
